@@ -3,11 +3,13 @@ from sklearn.linear_model import LinearRegression
 from joblib import dump
 from preprocess import prep_data
 
-df = pd.read_csv("fish_participant.csv")
+dataset = pd.read_csv("fish_participant.csv")
 
-X, y = prep_data(df)
+X, y = prep_data(dataset)
 
-lr = LinearRegression()
-lr.fit(X, y)
+regressor = LinearRegression()
+regressor.fit(X, y)
 
-dump(lr, "reg.joblib")
+dump(regressor, "reg.joblib")
+
+print(X, y)
