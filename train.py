@@ -12,4 +12,4 @@ regressor.fit(X, y)
 
 dump(regressor, "reg.joblib")
 
-print(X, y)
+#print(X, y)

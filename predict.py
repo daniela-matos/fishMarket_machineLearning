@@ -18,7 +18,7 @@ def predict_from_csv(path_to_csv):
 if __name__ == "__main__":
 
     predictions = predict_from_csv("fish_holdout_demo.csv")
-
+    print(predictions)
 
 # ######
 
