@@ -1,4 +1,6 @@
 
+My model was rated 7 out of 25. : )
+
 ## Fish Market 
 
 The goal of this homework is to training a regression model to predict the weight of a fish.
